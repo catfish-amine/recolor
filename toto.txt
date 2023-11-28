@@ -1,0 +1,34 @@
+Ouriche Marouane: 
+
+game game_new(color *cells, uint nb_moves_max)
+
+game game_new_empty()
+
+void game_set_cell_init(game g, uint x, uint y, color c)
+=============
+Ben Amara Mohamed Amine:
+
+void game_delete(game g)
+
+bool game_is_over(cgame g)
+
+void game_restart(game g)
+
+==============
+Osmani Oussama :
+
+game_nb_moves_cur(cgame g)
+
+void game_play_one_move(game g, color c)
+
+game game_copy(cgame g)
+
+==============
+Becher iheb :
+
+void game_set_max_moves(game g, uint nb_max_moves)
+
+uint game_nb_moves_max(cgame g)
+
+color game_cell_current_color(cgame g, uint x, uint y)
+
